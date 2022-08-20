@@ -1,0 +1,22 @@
+{
+  "name": "vanilla",
+  "version": "1.0.0",
+  "description": "app for storing locations of donation boxes",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://oatcoder@github.com/oatcoder/vanilla.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oatcoder/vanilla/issues"
+  },
+  "homepage": "https://github.com/oatcoder/vanilla#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "1.1.1"
+  }
+}

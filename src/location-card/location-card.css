@@ -1,0 +1,48 @@
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+
+:host {
+    --active-text-color: #00C89E;
+    --text-color: #8598A1;
+}
+
+.card__container {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    color: var(--text-color);
+    display: flex;
+    min-height: 106px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card__container:hover {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.location-more-info {
+    display: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: #F5F7F8;
+}
+
+.info-wrapper {
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div.card__info {
+    flex-grow: 9;
+}
+
+i.material-icons.active {
+    color: var(--active-text-color);
+}

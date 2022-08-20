@@ -1,0 +1,28 @@
+<template id="location-form-template">
+    <style>@import "location-form/location-form.css";</style>
+
+    <div class="location-form-container">
+        <form role="form">
+            <text-box></text-box>
+
+            <label for="addressInput">Address</label>
+            <input type="text" id="addressInput" pattern="[a-zA-Z\d\s\-\,\#\.\+]+">
+
+            <label for="cityInput">City</label>
+            <input type="text" id="cityInput">
+
+            <label for="stateInput">State</label>
+            <input type="search" id="stateInput">
+
+            <label for="zipCodeInput">Zip Code</label>
+            <input type="number" id="zipCodeInput" pattern="^\d{5,6}(?:[-\s]\d{4})?$">
+
+            <label for="countryInput">Country</label>
+            <input type="text" id="countryInput">
+        </form>
+    </div>
+</template>
+
+<link rel="import" href="../text-box/text-box.html">
+
+<script src="location-form.js"></script>

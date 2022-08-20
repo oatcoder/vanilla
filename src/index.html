@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vanilla</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="manifest" href="./manifest.json">
+</head>
+
+<body>
+<header>
+    <nav>
+        <main-toolbar></main-toolbar>
+    </nav>
+</header>
+
+<main>
+    <aside class="left-container">
+        <location-cards></location-cards>
+        <location-form class="hidden"></location-form>
+    </aside>
+
+    <article class="right-container">
+        <locations-map selected="" locations=""></locations-map>
+    </article>
+</main>
+
+<script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-hi.js"></script>
+<script type="module" src="./services/html.tools.js"></script>
+<script type="module" src="./index.js"></script>
+
+<link rel="import" href="./location-cards/location-cards.html">
+<link rel="import" href="./main-toolbar/main-toolbar.html">
+<link rel="import" href="./locations-map/locations-map.html">
+<link rel="import" href="./location-form/location-form.html">
+</body>
+</html>

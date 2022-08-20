@@ -1,0 +1,68 @@
+:host{
+    --active-text-color: #00C89E;
+    --text-color: #8598A1;
+    --toolbar-background: #FFFFFF;
+}
+
+.main__container {
+    display: flex;
+    align-items: center;
+    background-color: var(--toolbar-background);
+}
+
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    flex-grow: 1;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: var(--text-color);
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: var(--active-text-color);
+}
+
+a.selected {
+    color: var(--active-text-color);
+}
+
+input[type=text] {
+    font-size: 16px;
+    margin-right: 20px;
+    background-color: #F5F7F8;
+
+    color: var(--text-color);
+    box-sizing: border-box;
+
+    outline: none;
+
+    border-radius: 4px;
+    border-style: none;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+input[type=text]:focus {
+
+}
+
+::placeholder {
+    color: var(--text-color);
+    opacity: 0.5;
+}

@@ -1,0 +1,50 @@
+html {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    background-color: #FFFFFF;
+    color: #00C89E;
+    height: 100%;
+}
+
+header {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+}
+
+main {
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 100%;
+}
+
+/*TODO: move this out to component*/
+footer {
+    background-color: #24A281;
+    text-align: left;
+    padding: 8px;
+    color: #FFFFFF;
+}
+
+aside.left-container {
+    margin-top: 80px;
+    overflow-y: auto;
+}
+
+article.right-container {
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 15px;
+}
+
+.hidden {
+    display: none;
+}
